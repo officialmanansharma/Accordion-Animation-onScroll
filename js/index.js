@@ -108,7 +108,7 @@ function toggleSection(index) {
 function scrollToTop() {
     window.scrollTo({
         top: 0,
-        behavior: 'auto' // or 'smooth' for a smooth scroll
+        behavior: 'auto'
     });
 }
 

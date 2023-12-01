@@ -70,7 +70,7 @@ function createAccordion(){
                 contentDiv.classList.remove('open');
             }
         });
-    }, { threshold: 0.5 }); // Adjust threshold as needed
+    }, { threshold: 0.5 });
 
     document.querySelectorAll('.section-style').forEach((section) => {
         observer.observe(section);

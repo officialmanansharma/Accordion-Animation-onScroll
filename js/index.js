@@ -50,7 +50,6 @@ function createAccordion(){
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             const sectionIndex = entry.target.id;
-            console.log(sectionIndex);
             const contentDiv = document.querySelectorAll('.accordion-content')[sectionIndex];
             const imageContainer = document.querySelector('.image-container');
 
